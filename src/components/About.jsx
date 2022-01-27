@@ -100,7 +100,7 @@ const About = ({ darkMode }) => {
                   </Card.Text>
                   <a
                     href={
-                      "https://drive.google.com/file/d/1oZo6NqVJaTtR0-kgcx9CZewr7NKl5SAZ/view"
+                      "https://drive.google.com/file/d/1katIQTsip47D3xpm3YC5swvSv3eHWSCc/view?usp=sharing"
                     }
                     target="_blank"
                     rel="noreferrer noopener"
