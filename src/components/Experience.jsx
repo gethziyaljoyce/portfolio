@@ -49,9 +49,9 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  An App which will help us to store our beautiful memories with title,tags and picture,
-                                  And we can record the creator of that post as well..We can edit,update and delete..
-                                  And we can count the likes.
+                                  A memories Application: Featuring, Adding image with title and tags.
+                                  Allowed edit and delete operations,images are stored as a base64 format in the database.
+                                  User can add their images with tag and title as like social media timeline.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -131,9 +131,10 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  An application that helps the customers to sign up for the wait list.
-                                  By sharing the link given with others..and If they registered with that link,
-                                  the position of the customer will be improved.
+                                  The customer waiting list management application: 
+                                  If a customer register for the product which is not available in the stock,the waiting position of the customer will
+                                  displayed after the registration and then the link will be auto generated to share with their friends to register that product.If that shared
+                                  link is used for the registration the waiting position of the customer will be reduced.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -214,7 +215,10 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  A chat application with socket.io.. By copying and sharing the ID.. We can connect with our friends
+                                  A video chat application:Featuring,Generate meeting Id,Share meeting Id,
+                                  Make connection by meeting Id,Accept/Reject the call and end meeting. It is
+                                  an one to one video chat application. User can generate the meeting Id to 
+                                  connect with his/her friend.The user can join the meeting with shared meeting Id.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -279,7 +283,7 @@ const Experience = ({ darkMode }) => {
             <Zoom>
               <Row>
                 <div className="last">
-                <Col lg={4} sm={12}>
+                  <Col lg={4} sm={12}>
                     <Card
                       align="center"
                       className="Fi"
@@ -301,8 +305,9 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  An E-Shopping application.. We can choose products and can filter based on color,size and price.
-                                  payment will be made by stripe..
+                                  An E-Shopping application: Featuring,user registration,
+                                  user login,product filter based on color size and prize. Add to cart,checkout the items
+                                  and payment process.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -383,7 +388,7 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  WhatsApp Clone using React js.. 
+                                  WhatsApp Clone using React js..
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -408,20 +413,20 @@ const Experience = ({ darkMode }) => {
                           </Button>
                         </a>
                         <div>
-                        <a
-                          href="https://github.com/gethziyaljoyce/whatsapp-clone.git"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn"
+                          <a
+                            href="https://github.com/gethziyaljoyce/whatsapp-clone.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
                           >
-                            Github Repo
-                          </Button>
-                        </a>
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Github Repo
+                            </Button>
+                          </a>
                         </div>
                       </div>
                       <br></br>
