@@ -51,7 +51,7 @@ const Experience = ({ darkMode }) => {
                                 <p align="center">
                                   A memories Application: Featuring, Adding image with title and tags.
                                   Allowed edit and delete operations,images are stored as a base64 format in the database.
-                                  User can add their images with tag and title as like social media timeline.
+                                  User can add image with tag and title.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -131,10 +131,8 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  The customer waiting list management application: 
-                                  If a customer register for the product which is not available in the stock,the waiting position of the customer will
-                                  displayed after the registration and then the link will be auto generated to share with their friends to register that product.If that shared
-                                  link is used for the registration the waiting position of the customer will be reduced.
+                                  If a customer register for the product,the waiting position of the customer will
+                                  displayed after the registration and then the link will be auto generated to share with their friends to register that product.
                                 </p>
                               </Card.Text>
                             </Card.Body>
@@ -215,10 +213,8 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  A video chat application:Featuring,Generate meeting Id,Share meeting Id,
-                                  Make connection by meeting Id,Accept/Reject the call and end meeting. It is
-                                  an one to one video chat application. User can generate the meeting Id to 
-                                  connect with his/her friend.The user can join the meeting with shared meeting Id.
+                                  Featuring:Generate meeting Id,Make connection by meeting Id,Accept/Reject the call and end meeting. It is
+                                  an one to one video chat application. 
                                 </p>
                               </Card.Text>
                             </Card.Body>
