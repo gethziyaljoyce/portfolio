@@ -388,7 +388,7 @@ const Experience = ({ darkMode }) => {
                               </Card.Title>
                               <Card.Text>
                                 <p align="center">
-                                  WhatsApp Clone using React js..
+                                  WhatsApp Clone user interface using React js.
                                 </p>
                               </Card.Text>
                             </Card.Body>
