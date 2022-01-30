@@ -14,7 +14,7 @@ const Home = ({ darkMode }) => {
               HELLO!<code> I'm Joyce</code>
             </h1>
             <h2 className="lead" align="center">
-              I am a Full Stack <h1>MERN</h1> Developer
+              I am a <h1>FULL STACK</h1> Developer
             </h2>
           </Col>
         </Row>
