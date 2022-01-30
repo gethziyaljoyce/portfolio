@@ -41,258 +41,6 @@ const Experience = ({ darkMode }) => {
                             <Card.Img
                               className="image"
                               variant="top"
-                              src={memories}
-                            />
-                            <Card.Body>
-                              <Card.Title align="center">
-                                Memories Application
-                              </Card.Title>
-                              <Card.Text>
-                                <p align="center">
-                                  A memories Application: Featuring, Adding image with title and tags.
-                                  Allowed edit and delete operations,images are stored as a base64 format in the database.
-                                  User can add image with tag and title.
-                                </p>
-                              </Card.Text>
-                            </Card.Body>
-                          </div>
-                        </div>
-                      </center>
-                      <br></br>
-
-                      <div>
-                        <a
-                          href="https://joyce-memories-app.netlify.app/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn view"
-                          >
-                            Deployed Site
-                          </Button>
-                        </a>
-                        <div>
-                          <a
-                            href="https://github.com/gethziyaljoyce/memories-client.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn view"
-                            >
-                              Front-End
-                            </Button>
-                          </a>
-                          <a
-                            href="https://github.com/gethziyaljoyce/memories-server.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn"
-                            >
-                              Back-End
-                            </Button>
-                          </a>
-                        </div>
-                      </div>
-                      <br></br>
-                    </Card>
-                  </Col>
-
-                  <Col lg={4} sm={12} md={12}>
-                    <Card
-                      align="center"
-                      className="Fi"
-                      data-theme={darkMode ? "dark" : "light"}
-                    >
-                      <br></br>
-                      <center>
-                        <div className="flip-card">
-                          <div className="flip-card-front">
-                            <Card.Img
-                              className="image"
-                              variant="top"
-                              src={referal}
-                            />
-                            <Card.Body>
-                              <Card.Title align="center">
-                                Wait List Application
-                              </Card.Title>
-                              <Card.Text>
-                                <p align="center">
-                                  If a customer register for the product,the waiting position of the customer will
-                                  displayed after the registration and then the link will be auto generated to share with their friends to register that product.
-                                </p>
-                              </Card.Text>
-                            </Card.Body>
-                          </div>
-                        </div>
-                      </center>
-                      <br></br>
-
-                      <div>
-                        <a
-                          href="https://joyce-referal-url.netlify.app/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn"
-                          >
-                            Deployed Site
-                          </Button>
-                        </a>
-                        <div>
-                          <a
-                            href="https://github.com/gethziyaljoyce/referal-url-client.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn view"
-                            >
-                              Front-End
-                            </Button>
-                          </a>
-                          <a
-                            href="https://github.com/gethziyaljoyce/referal-url.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn"
-                            >
-                              Back-End
-                            </Button>
-                          </a>
-                        </div>
-                      </div>
-                      <br></br>
-                    </Card>
-                  </Col>
-
-                  <Col lg={4} sm={12} md={12}>
-                    <Card
-                      align="center"
-                      className="Fi"
-                      data-theme={darkMode ? "dark" : "light"}
-                    >
-                      <br></br>
-                      <center>
-                        <div class="flip-card">
-                          {/* <div class="flip-card-inner"> */}
-                          <div className="flip-card-front">
-                            <Card.Img
-                              className="image"
-                              variant="top"
-                              src={chat}
-                            />
-                            <Card.Body>
-                              <Card.Title align="center">
-                                Video Chat Application
-                              </Card.Title>
-                              <Card.Text>
-                                <p align="center">
-                                  Featuring:Generate meeting Id,Make connection by meeting Id,Accept/Reject the call and end meeting. It is
-                                  an one to one video chat application. 
-                                </p>
-                              </Card.Text>
-                            </Card.Body>
-                          </div>
-                        </div>
-                      </center>
-                      <br></br>
-                      <div>
-                        <a
-                          href="https://joyce-zoom-clone.netlify.app/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn"
-                          >
-                            Deployed Site
-                          </Button>
-                        </a>
-                        <div>
-                          <a
-                            href="https://github.com/gethziyaljoyce/zoom-clone-frontend.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn view"
-                            >
-                              Front-End
-                            </Button>
-                          </a>
-                          <a
-                            href="https://github.com/gethziyaljoyce/zoom-clone-backend.git"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <Button
-                              variant={
-                                darkMode ? "outline-light" : "outline-dark"
-                              }
-                              className="sbtn"
-                            >
-                              Back-End
-                            </Button>
-                          </a>
-                        </div>
-                      </div>
-                      <br></br>
-                    </Card>
-                  </Col>
-                </div>
-              </Row>
-            </Zoom>
-            <br></br>
-
-            <Zoom>
-              <Row>
-                <div className="last">
-                  <Col lg={4} sm={12}>
-                    <Card
-                      align="center"
-                      className="Fi"
-                      data-theme={darkMode ? "dark" : "light"}
-                    >
-                      <br></br>
-                      <center>
-                        <div className="flip-card">
-                          {/* <div class="flip-card-inner"> */}
-                          <div className="flip-card-front">
-                            <Card.Img
-                              className="image"
-                              variant="top"
                               src={ecommerce}
                             />
                             <Card.Body>
@@ -344,6 +92,260 @@ const Experience = ({ darkMode }) => {
                           </a>
                           <a
                             href="https://github.com/gethziyaljoyce/e-commerce-server.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Back-End
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+
+                  <Col lg={4} sm={12} md={12}>
+                    <Card
+                      align="center"
+                      className="Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div className="flip-card">
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={chat}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Video Chat Application
+
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  Featuring:Generate meeting Id,Make connection by meeting Id,Accept/Reject the call and end meeting. It is
+                                  an one to one video chat application.
+
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+                        </div>
+                      </center>
+                      <br></br>
+
+                      <div>
+                        <a
+                          href="https://joyce-zoom-clone.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <div>
+                          <a
+                            href="https://github.com/gethziyaljoyce/zoom-clone-frontend.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn view"
+                            >
+                              Front-End
+                            </Button>
+                          </a>
+                          <a
+                            href="https://github.com/gethziyaljoyce/zoom-clone-backend.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Back-End
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+
+                  <Col lg={4} sm={12} md={12}>
+                    <Card
+                      align="center"
+                      className="Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div class="flip-card">
+                          {/* <div class="flip-card-inner"> */}
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={memories}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Memories Application
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  A memories Application: Featuring, Adding image with title and tags.
+                                  Allowed edit and delete operations,images are stored as a base64 format in the database.
+                                  User can add image with tag and title.
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+                        </div>
+                      </center>
+                      <br></br>
+                      <div>
+                        <a
+                          href="https://joyce-memories-app.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <div>
+                          <a
+                            href="https://github.com/gethziyaljoyce/memories-client.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn view"
+                            >
+                              Front-End
+                            </Button>
+                          </a>
+                          <a
+                            href="https://github.com/gethziyaljoyce/memories-server.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Back-End
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+                </div>
+              </Row>
+            </Zoom>
+            <br></br>
+
+            <Zoom>
+              <Row>
+                <div className="last">
+                  <Col lg={4} sm={12}>
+                    <Card
+                      align="center"
+                      className="Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div className="flip-card">
+                          {/* <div class="flip-card-inner"> */}
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={referal}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Wait List Application
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  If a customer register for the product,the waiting position of the customer will
+                                  displayed after the registration and then the link will be auto generated to share with their friends to register that product.
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+                        </div>
+                      </center>
+                      <br></br>
+
+                      <div>
+                        <a
+                          href="https://joyce-referal-url.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn view"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <div>
+                          <a
+                            href="https://github.com/gethziyaljoyce/referal-url-client.git"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn view"
+                            >
+                              Front-End
+                            </Button>
+                          </a>
+                          <a
+                            href="https://github.com/gethziyaljoyce/referal-url.git"
                             target="_blank"
                             rel="noreferrer noopener"
                           >
